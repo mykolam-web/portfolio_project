@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Микола Ташлицький | Python Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайту з навігацією -->
+    <header class="header">
+        <div class="logo">M.Tashlytskyi</div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">Про мене</a></li>
+                <li><a href="#skills" class="nav-link">Технології</a></li>
+                <li><a href="#projects" class="nav-link">Проєкти</a></li>
+                <li><a href="#contacts" class="nav-link">Зв'язок</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Головна секція (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Микола Ташлицький</h1>
+            <p>Перспективний <span class="highlight">Python Developer</span></p>
+            <a href="#projects" class="btn">Переглянути код</a>
+        </div>
+    </section>
+
+    <!-- Секція "Про мене" -->
+    <section id="about" class="section container">
+        <h2 class="section-title">Про мене</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Вітаю! Я студент 1-го курсу у Фаховому коледжі Університету Короля Данила. Мій головний фокус розробки - мова програмування Python.</p>
+                <p>Мені щиро подобається писати код, розбиратися в алгоритмах та створювати логіку програм. Зараз я активно практикуюся та прагну постійно покращувати свої навички розробки, щоб створювати ефективні IT-рішення.</p>
+            </div>
+            <div class="about-image">
+                <!-- Вбудована SVG графіка -->
+                <svg viewBox="0 0 500 350" width="100%" height="auto" style="background: #1e3d59; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+                    <rect x="50" y="30" width="400" height="240" rx="8" fill="#0f172a" />
+                    <rect x="60" y="40" width="380" height="220" rx="4" fill="#1e293b" />
+                    <path d="M220 270 L200 320 L300 320 L280 270 Z" fill="#64748b" />
+                    <rect x="180" y="315" width="140" height="10" rx="2" fill="#475569" />
+                    <text x="80" y="75" font-family="Courier, monospace" font-size="14" fill="#38bdf8">def <tspan fill="#facc15">init_portfolio</tspan>():</text>
+                    <text x="110" y="105" font-family="Courier, monospace" font-size="14" fill="#e2e8f0">developer = <tspan fill="#34d399">"Mykola"</tspan></text>
+                    <text x="110" y="135" font-family="Courier, monospace" font-size="14" fill="#e2e8f0">skills = [<tspan fill="#fb923c">"Python"</tspan>, <tspan fill="#fb923c">"Git"</tspan>]</text>
+                    <text x="110" y="165" font-family="Courier, monospace" font-size="14" fill="#38bdf8">for <tspan fill="#e2e8f0">skill</tspan> in <tspan fill="#e2e8f0">skills</tspan>:</text>
+                    <text x="140" y="195" font-family="Courier, monospace" font-size="14" fill="#facc15">print</text>
+                    <text x="185" y="195" font-family="Courier, monospace" font-size="14" fill="#e2e8f0">(f<tspan fill="#34d399">"Learning {skill}..."</tspan>)</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція "Технології" -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Мій стек та інструменти</h2>
+            <ul class="skills-list">
+                <li class="skill-item">Python 3</li>
+                <li class="skill-item">ООП (Об'єктно-орієнтоване програмування)</li>
+                <li class="skill-item">Git / GitHub</li>
+                <li class="skill-item">Основи вебверстки (HTML5 / CSS3)</li>
+                <li class="skill-item">VS Code / PyCharm</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Секція "Проєкти" -->
+    <section id="projects" class="section container">
+        <h2 class="section-title">Мої проєкти на GitHub</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="tech-badge">Python</div>
+                <h3>python_practice</h3>
+                <p>Серія практичних скриптів для освоєння базових конструкцій мови, роботи зі списками та циклами.</p>
+                <a href="https://github.com/mykolam-web/python_practice" target="_blank" class="project-link">Перейти до репозиторію &rarr;</a>
+            </div>
+            <div class="project-card">
+                <div class="tech-badge">Python</div>
+                <h3>python_practice-2</h3>
+                <p>Друга частина тренувальних завдань, присвячена функціям, обробці винятків та файловій системі.</p>
+                <a href="https://github.com/mykolam-web/python_practice-2" target="_blank" class="project-link">Перейти до репозиторію &rarr;</a>
+            </div>
+            <div class="project-card">
+                <div class="tech-badge">Python</div>
+                <h3>python-practice-3</h3>
+                <p>Розширені алгоритми, вивчення базових структур даних та перші спроби оптимізації коду.</p>
+                <a href="https://github.com/mykolam-web/python-practice-3" target="_blank" class="project-link">Перейти до репозиторію &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- Футер та контакти -->
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <h2 class="footer-title">Контакти</h2>
+            <p>Завжди відкритий до нових знань, цікавих задач та академічної співпраці!</p>
+            <div class="social-links">
+                <!-- Посилання на головну сторінку профілю -->
+                <a href="https://github.com/mykolam-web" target="_blank" class="social-link">GitHub Профіль</a>
+                <!-- Твоя пошта -->
+                <a href="tashlickijnikolai@gmail.com" class="social-link">✉ Email</a>
+            </div>
+            <p class="copyright">&copy; 2026 Микола Ташлицький. Практична робота з HTML/CSS.</p>
+        </div>
+    </footer>
